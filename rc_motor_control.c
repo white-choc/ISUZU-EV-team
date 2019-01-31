@@ -25,7 +25,7 @@ right
 ********/
 
 int main(){
-	char input='test';
+	char input='t';
 // always initialize cape library first
 	rc_initialize();
 	printf("nHello BeagleBonen");
@@ -46,8 +46,8 @@ int main(){
 	printf("> ");
 	//input = getchar();
 	switch(input){
-		case 'test':
-			rc_set_led(GREEN,on);
+		case 't':
+			rc_set_led(GREEN,ON);
 			int ch = 1;
 			int us = 1000;
 			rc_servo_init();
