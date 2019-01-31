@@ -25,7 +25,7 @@ right
 ********/
 
 int main(){
-	char input='f';
+	char input='test';
 // always initialize cape library first
 	rc_initialize();
 	printf("nHello BeagleBonen");
@@ -35,8 +35,10 @@ int main(){
 	rc_enable_motors();
 	rc_set_led(GREEN,ON);
 	rc_set_led(RED,ON);
+	/*
 	rc_set_motor_free_spin(1);
 	rc_set_motor_free_spin(2);
+	*/
 	printf("Motors are now ready.n");
 // Turn on a raw terminal to get a single charactersystem("stty raw");
 	do
@@ -44,6 +46,12 @@ int main(){
 	printf("> ");
 	//input = getchar();
 	switch(input){
+		case 'test':
+			rc_set_led(BLUE,on);
+			int ch = 1;
+			int us = 1000;
+			rc_servo_init();
+			rc_servo_send_pulse_us(ch,us);
 		case 'f':
 			rc_set_motor(1, 0.5);
 			rc_set_motor(2, 0.5);
