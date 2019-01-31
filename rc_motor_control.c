@@ -8,7 +8,7 @@ character
 right
 ***************************************************************************
 ***/
-
+/*
 #include <rc_usefulincludes.h>
 #include <roboticscape.h>
 #include <stdio.h>
@@ -19,7 +19,9 @@ right
 #include <rc/adc.h>
 #include <rc/dsm.h>
 #include <rc/servo.h>
-
+*/
+#include "../../libraries/rc_usefulincludes.h"
+#include "../../libraries/roboticscape.h"
 /*********************************************************************
 *********
 * int main()
