@@ -1,4 +1,4 @@
-TARGET	:=../../bin/rc_motor_control
+TARGET	:= ./test
 #TOUCH 	 := $(shell touch *)
 
 CC	:= gcc

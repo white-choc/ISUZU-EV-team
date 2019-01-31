@@ -20,8 +20,8 @@ right
 #include <rc/dsm.h>
 #include <rc/servo.h>
 */
-#include "../../libraries/rc_usefulincludes.h"
-#include "../../libraries/roboticscape.h"
+#include "../../controllib/libraries/rc_usefulincludes.h"
+#include "../../controllib/libraries/roboticscape.h"
 /*********************************************************************
 *********
 * int main()
