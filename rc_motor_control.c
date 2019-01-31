@@ -11,6 +11,14 @@ right
 
 #include <rc_usefulincludes.h>
 #include <roboticscape.h>
+#include <stdio.h>
+#include <getopt.h>
+#include <stdlib.h> // for atoi
+#include <signal.h>
+#include <rc/time.h>
+#include <rc/adc.h>
+#include <rc/dsm.h>
+#include <rc/servo.h>
 
 /*********************************************************************
 *********
