@@ -33,7 +33,7 @@ int main(){
 	rc_set_state(RUNNING);
 // bring H-bridges of of standby
 	rc_enable_motors();
-	rc_set_led(GREEN,ON);
+	//rc_set_led(GREEN,ON);
 	rc_set_led(RED,ON);
 	/*
 	rc_set_motor_free_spin(1);
@@ -47,7 +47,7 @@ int main(){
 	//input = getchar();
 	switch(input){
 		case 'test':
-			rc_set_led(BLUE,on);
+			rc_set_led(GREEN,on);
 			int ch = 1;
 			int us = 1000;
 			rc_servo_init();
