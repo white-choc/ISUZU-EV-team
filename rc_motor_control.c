@@ -8,7 +8,7 @@ character
 right
 ***************************************************************************
 ***/
-/*
+
 #include <rc_usefulincludes.h>
 #include <roboticscape.h>
 #include <stdio.h>
@@ -16,12 +16,13 @@ right
 #include <stdlib.h> // for atoi
 #include <signal.h>
 #include <rc/time.h>
-#include <rc/adc.h>
-#include <rc/dsm.h>
-#include <rc/servo.h>
-*/
+//#include <rc/adc.h>
+//#include <rc/dsm.h>
+#include "~/home/debian/controllib/librobotcontrol/library/include/rc/servo.h"
+/*
 #include "../../controllib/library/include/rc_usefulincludes.h"
 #include "../../controllib/library/include/roboticscape.h"
+*/
 /*********************************************************************
 *********
 * int main()
