@@ -1,8 +1,10 @@
 #include <iostream>
-#include <ncurses.h>
+#include <curses.h>
 using namespace std;
 
 int main () {
+	initscr();
+	keypad(stdscr,TRUE);
 	while (1) {
 	int c;
 	c = getch();
