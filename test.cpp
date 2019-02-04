@@ -5,7 +5,7 @@ using namespace std;
 int main () {
 	int ch = 1;
 	cout << ch <<endl;
-	auto c;
+	int c;
 	c = getch();
 	cout << c << endl;
 	//if (ch == 'a') cout << 'yes'
